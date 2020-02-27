@@ -111,9 +111,9 @@ Possibly another Intermediate Cert Next
 Root Cert Last
 
 The best way to do this is to cat your certificates together and MAKE SURE YOU keep your 
------BEGIN CERTIFICATE-----
-and 
------END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----\
+and \
+-----END CERTIFICATE-----\
 and they are on their OWN new lines. Also make sure keep the line breaks in the original cert. Like the below chained cert (minus the server cert)
 
 ```
